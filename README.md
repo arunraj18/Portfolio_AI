@@ -1,55 +1,59 @@
-# 🤖 AI-Enhanced Portfolio
+# 🤖 Arun Raj's AI-Enhanced Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-An innovative portfolio powered by AI that brings my GitHub activity to life. The AI assistant can discuss my projects, commits, and contributions in real-time, providing visitors with an interactive way to explore my work.
+Welcome to my interactive portfolio — enhanced with AI! This project brings my GitHub contributions and technical journey to life. Whether you're a recruiter, developer, or just curious, you can chat with my AI assistant to learn about my projects, skills, and career highlights in real-time.
 
-## ✨ How It Works
+## ✨ Key Features
 
-- 🧠 **AI-Powered Conversations** - The AI assistant that discuss my projects, skills, and experience naturally
-- 🔄 **Live GitHub Integration** - Fetches my latest repositories, commits, and contributions in real-time
-- 🤖 **Smart Context** - Understands project details, technologies used, and can explain my work
-- 💬 **Interactive Q&A** - Visitors can ask about specific projects or my tech stack
+- 🧠 **AI-Powered Conversations** – Ask questions about my work, and the assistant will answer naturally.
+- 🔄 **Live GitHub Integration** – Get up-to-date info on my repositories, commits, and technologies used.
+- 💬 **Interactive Q&A** – Learn about specific projects, skills, or technologies I've worked with.
+- 🚀 **Fully Client-Side** – No backend required; all magic happens right in your browser.
 
 ## 🛠️ Project Structure
 
 ```
 ai-portfolio/
-├── index.html          # Main HTML file
-├── script.js           # Core application logic
-├── ai-chat.js         # AI chat functionality with GitHub integration
-├── ai-chat.css        # Chat interface styles
-├── github-api.js      # GitHub API integration
-└── README.md          # This file
+├── index.html          # Main HTML page
+├── script.js           # Base application logic
+├── ai-chat.js          # AI assistant chat logic
+├── ai-chat.css         # Styling for the chat UI
+├── github-api.js       # GitHub data fetcher for real-time updates
+└── README.md           # This file
 ```
 
 ## 🔌 AI & API Integration
 
-- **🤖 [Pollinations.ai](https://pollinations.ai/)** - Special thanks for providing the free AI chat API that powers the natural language understanding and responses
-- **💻 GitHub API** - Fetches live data about repositories and contributions directly from GitHub
-- **⚡ Client-Side Magic** - All processing happens in the browser, no backend server required
+- **🧠 OpenAI API** – Powers the AI assistant’s responses, tailored to my tech journey
+- **📊 GitHub API** – Fetches real-time data about my repos, commits, and contributions
+- **🔐 CORS Handling** – Uses a proxy to safely fetch data without exposing credentials
 
-## 🤝 Contributing & Feedback
+## 👨‍💻 About Me
 
-This portfolio is a living project that evolves with my work. If you'd like to contribute or have suggestions:
+I'm **Arun Raj Peddhala**, a Full Stack .NET Developer exploring the intersection of development, automation, and AI. I enjoy building scalable systems and bringing ideas to life through code. This portfolio is a reflection of my continuous learning and creativity in tech.
 
-1. Feel free to fork the repository
-2. Open an issue to discuss your ideas
-3. Submit a pull request with your improvements
+## 🙌 Contributing & Feedback
 
-I welcome all feedback to make this portfolio even better!
+This is a living project — and I’d love your thoughts!  
+To contribute or share ideas:
+
+1. Fork this repo
+2. Open an issue or discussion
+3. Submit a pull request with your ideas
 
 ## 📝 License
 
-MIT Licensed - feel free to use this as a template for your own portfolio.
+This project is licensed under the **MIT License** — feel free to reuse and customize it for your own portfolio.
 
 ## 🙏 Special Thanks
 
-- **[Pollinations.ai](https://pollinations.ai/)** - For providing the free AI chat API that brings this portfolio to life
-- **GitHub** - For their robust API that enables real-time project data integration
-- **You** - For taking the time to explore my work and this portfolio!
+- **OpenAI** – For powering the AI assistant
+- **GitHub** – For their developer-friendly APIs
+- **Pollinations.ai** – For early testing inspiration
+- **You** – For stopping by and exploring my work!
 
 ---
 
-💡 *This portfolio is powered by open-source technologies and is itself open-source. Feel free to use it as a template for your own portfolio!*
+⭐️ *Inspired by the spirit of open-source. Use this as a base to build your own awesome portfolio!*
